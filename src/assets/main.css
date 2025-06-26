@@ -10,25 +10,30 @@
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: #5D536B;
   transition: 0.4s;
   padding: 3px;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: #5D536B;
   }
 }
 
 @media (min-width: 1024px) {
   body {
     display: flex;
+    justify-content: center;
+    align-items: center;
     place-items: center;
+    background-color: #272838;
   }
 
   #app {
-    display: grid;
+    display: flex;
+    align-items: center;
+    text-align: center;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }

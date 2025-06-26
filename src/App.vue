@@ -1,47 +1,48 @@
 <script setup>
-
+import TheFooter from './components/TheFooter.vue'; 
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>
-  <header>
-    
+  <div class="app-container">
+    <header>
+      <TheHeader />
+    </header>
 
-    <div class="wrapper">
-      
-    </div>
-    
-  </header>
+    <main>
+      <h1 style="margin:50px">WIP</h1>
+    </main>
 
-  <main>
-    
-  </main>
+    <footer>
+      <TheFooter />
+    </footer>
+  </div>
 </template>
 
+
 <style scoped>
-header {
-  line-height: 1.5;
+body {
+  background-color: #212738;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+header,
+footer {
+  text-align: center;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+footer {
+  padding: 1rem;
 }
 </style>
