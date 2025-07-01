@@ -13,9 +13,8 @@ import TheHeader from './components/TheHeader.vue';
       <h1 style="margin:50px">WIP</h1>
     </main>
 
-    <footer>
+
       <TheFooter />
-    </footer>
   </div>
 </template>
 
