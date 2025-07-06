@@ -4,7 +4,9 @@
       <p>&copy; 2025 Sam Mooney</p>
       <ul class="social-links">
         <li><a href="https://github.com/Noysomee">Github</a></li>
-        <li><a href="https://linkedin.com/in/sam-mooney-b8254632b">LinkedIn</a></li>
+        <li>
+          <a href="https://linkedin.com/in/sam-mooney-b8254632b">LinkedIn</a>
+        </li>
       </ul>
     </div>
   </footer>
@@ -26,7 +28,7 @@
 
 .social-links li a {
   text-decoration: none;
-  color: #989FCE;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #989fce;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 </style>

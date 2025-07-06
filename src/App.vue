@@ -1,6 +1,6 @@
 <script setup>
-import TheFooter from './components/TheFooter.vue'; 
-import TheHeader from './components/TheHeader.vue';
+import TheFooter from "./components/TheFooter.vue";
+import TheHeader from "./components/TheHeader.vue";
 </script>
 
 <template>
@@ -10,14 +10,12 @@ import TheHeader from './components/TheHeader.vue';
     </header>
 
     <main>
-      <h1 style="margin:50px">WIP</h1>
+      <h1 style="margin: 50px">WIP</h1>
     </main>
 
-
-      <TheFooter />
+    <TheFooter />
   </div>
 </template>
-
 
 <style scoped>
 body {
