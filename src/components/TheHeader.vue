@@ -6,11 +6,14 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
 h1 {
-  color: #989fce;
+  color: #c21717;
   text-align: center;
   margin: 0;
   padding: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-family: 'Space Grotesk', sans-serif;
 }
 </style>

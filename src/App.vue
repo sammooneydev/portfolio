@@ -1,6 +1,8 @@
 <script setup>
 import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
+import ProfileCard from "./components/ProfileCard.vue";
+
 </script>
 
 <template>
@@ -10,7 +12,7 @@ import TheHeader from "./components/TheHeader.vue";
     </header>
 
     <main>
-      <h1 style="margin: 50px">WIP</h1>
+      <ProfileCard />
     </main>
 
     <TheFooter />
@@ -19,7 +21,7 @@ import TheHeader from "./components/TheHeader.vue";
 
 <style scoped>
 body {
-  background-color: #212738;
+  background-color: #fffaf3;
   margin: 0;
   display: flex;
   flex-direction: column;

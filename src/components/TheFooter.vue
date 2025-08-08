@@ -13,6 +13,8 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+
 .footer-content {
   text-align: center;
 }
@@ -28,7 +30,7 @@
 
 .social-links li a {
   text-decoration: none;
-  color: #989fce;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #c21717;
+  font-family: "Space Grotesk", sans-serif;
 }
 </style>

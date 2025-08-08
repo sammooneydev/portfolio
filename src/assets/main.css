@@ -1,10 +1,13 @@
 @import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  font-family: 'Courier Prime', monospace;
+  color:#2b2018;
 }
 
 a,
@@ -27,7 +30,7 @@ a,
     justify-content: center;
     align-items: center;
     place-items: center;
-    background-color: #272838;
+    background-color: #f6dfc0;
   }
 
   #app {
