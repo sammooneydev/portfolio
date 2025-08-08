@@ -32,5 +32,6 @@
   text-decoration: none;
   color: #c21717;
   font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
 }
 </style>
