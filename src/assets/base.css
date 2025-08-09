@@ -71,24 +71,20 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #app {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+  max-width: 600px;
+}
 
   @media (hover: hover) {
   a:hover {
