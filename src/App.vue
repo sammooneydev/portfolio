@@ -20,14 +20,6 @@ import ProfileCard from "./components/ProfileCard.vue";
 </template>
 
 <style scoped>
-body {
-  background-color: #fffaf3;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 header,
 footer {
   text-align: center;
