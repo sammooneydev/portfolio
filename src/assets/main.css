@@ -1,14 +1,4 @@
 @import './base.css';
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
-  font-family: 'Courier Prime', monospace;
-  color:#2b2018;
-}
 
 a,
 .green {
@@ -21,23 +11,5 @@ a,
 @media (hover: hover) {
   a:hover {
     background-color: #5D536B;
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    background-color: #f6dfc0;
-  }
-
-  #app {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
   }
 }
