@@ -1,7 +1,9 @@
 <template>
     <div class="card">
-        <h2>About Me</h2>
-        <p>My name is Sam Mooney, I am a 4th year student studying computing at Abertay University. I'm currently on track for a 1st class degree</p>
+        <h3>About Me</h3>
+        <p>Hey, I'm Sam Mooney. I'm a 4th year Computing student at Abertay University, currently on track for a first-class degree. I built this site to showcase my skills, projects, and what I've been working on lately.</p>
+        
+        <p>Outside of university, I enjoy learning new tools, languages, and frameworks, as well as coming up with fun project ideas to try out.</p>
     </div>
 </template>
 
@@ -10,8 +12,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
 
 
-h2 {
-    margin-bottom: 15px;
+h3 {
+    margin-bottom: 8px;
     font-family: "Archivo Black", sans-serif;
 }
 
@@ -25,7 +27,7 @@ h2 {
 @media (prefers-color-scheme: dark) {
     .card{
         width: 500px;
-        height: 250px;
+        height: 300px;
         background-image: url('../assets/retro-card-design-dark.svg');
         background-size:100% 100%;
         background-position: center;
