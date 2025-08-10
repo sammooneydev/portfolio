@@ -1,8 +1,7 @@
 <template>
     <div class="card">
         <h2>About Me</h2>
-        <p>My name is Sam Mooney, and welcome to my portfolio site! 
-           I am a 4th year student currently studying computing at Abertay University</p>
+        <p>My name is Sam Mooney, I am a 4th year student studying computing at Abertay University. I'm currently on track for a 1st class degree</p>
     </div>
 </template>
 
