@@ -49,7 +49,7 @@ h3 {
 @media (prefers-color-scheme: light) {
     .card {
         width: 500px;
-        height: 250px;
+        height: 310px;
         background-image: url('../assets/retro-card-design.svg');
         background-size:100% 100%;
         background-position: center;
