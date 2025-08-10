@@ -10,7 +10,7 @@
         width: 320px;
         height: 180px;
         background-image: url('../assets/retro-card-design-dark.svg');
-        background-size:cover;
+        background-size:100% 100%;
         background-position: center;
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@
         width: 320px;
         height: 180px;
         background-image: url('../assets/retro-card-design.svg');
-        background-size:cover;
+        background-size:100% 100%;
         background-position: center;
         display: flex;
         flex-direction: column;
