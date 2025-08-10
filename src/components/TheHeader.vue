@@ -16,6 +16,7 @@ h1 {
   font-family: 'Space Grotesk', sans-serif;
   background: linear-gradient(90deg,#c21717, #e76219, #fea712);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   display: inline-block;
 }
