@@ -92,3 +92,9 @@ body {
     border-radius: 4px;
   }
 }
+
+.nav-bar {
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+}

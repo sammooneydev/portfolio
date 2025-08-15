@@ -1,7 +1,6 @@
 <template>
   <header>
     <h1>Sam's Stuff</h1>
-    <p>Portfolio site created to show off my work!</p>
   </header>
 </template>
 

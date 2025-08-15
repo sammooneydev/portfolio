@@ -1,22 +1,23 @@
 <script setup>
 import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
-import ProfileCard from "./components/ProfileCard.vue";
-
 </script>
 
 <template>
-  <div class="app-container">
     <header>
       <TheHeader />
     </header>
 
+    <nav class="nav-bar">
+      <RouterLink to="/">home</RouterLink>
+    </nav>
+    
     <main>
-      <ProfileCard />
+      <RouterView />
     </main>
 
     <TheFooter />
-  </div>
+
 </template>
 
 <style scoped>
