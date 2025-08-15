@@ -1,6 +1,7 @@
 <script setup>
 import TheFooter from "./components/TheFooter.vue";
 import TheHeader from "./components/TheHeader.vue";
+import NavBar from "./components/NavBar.vue";
 </script>
 
 <template>
@@ -8,9 +9,7 @@ import TheHeader from "./components/TheHeader.vue";
       <TheHeader />
     </header>
 
-    <nav class="nav-bar">
-      <RouterLink to="/">home</RouterLink>
-    </nav>
+    <NavBar />
     
     <main>
       <RouterView />
