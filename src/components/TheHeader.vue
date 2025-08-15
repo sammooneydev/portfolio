@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>Sam's Stuff</h1>
+    <h1>SAM'S STUFF</h1>
   </header>
 </template>
 

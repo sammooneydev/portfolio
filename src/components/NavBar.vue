@@ -1,6 +1,6 @@
 <template>
     <nav class="nav-bar">
-      <RouterLink to="/">home</RouterLink>
+      <RouterLink to="/">HOME</RouterLink>
     </nav>
 </template>
 
