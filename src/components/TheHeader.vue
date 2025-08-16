@@ -5,15 +5,15 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 
 h1 {
   text-align: center;
   margin: 0;
   padding: 5px;
   font-weight: bold;
-  font-family: 'Space Grotesk', sans-serif;
-  background: linear-gradient(90deg,#c21717, #e76219, #fea712);
+  font-family: "Space Grotesk", sans-serif;
+  background: linear-gradient(90deg, #c21717, #e76219, #fea712);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

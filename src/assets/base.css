@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
@@ -67,7 +67,7 @@ body {
   background: var(--color-background);
   transition: background-color 0.5s;
   line-height: 1.6;
-  font-family: 'Courier Prime', monospace;
+  font-family: "Courier Prime", monospace;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -87,7 +87,7 @@ body {
   max-width: 600px;
 }
 
-  @media (hover: hover) {
+@media (hover: hover) {
   a:hover {
     background-color: #fea712;
     border-radius: 4px;

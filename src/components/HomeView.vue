@@ -2,15 +2,14 @@
 import ProfileCard from "./ProfileCard.vue";
 
 export default {
-    components: {
-        ProfileCard
-    }
-}
+  components: {
+    ProfileCard,
+  },
+};
 </script>
 
 <template>
-<div>
+  <div>
     <ProfileCard />
-</div>
-
+  </div>
 </template>
