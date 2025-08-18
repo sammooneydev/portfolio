@@ -1,15 +1,11 @@
 <script setup>
 import TheFooter from "./components/TheFooter.vue";
-import TheHeader from "./components/TheHeader.vue";
-import NavBar from "./components/NavBar.vue";
+import NavBanner from "./components/NavBanner.vue";
 </script>
 
 <template>
-  <header>
-    <TheHeader />
-  </header>
 
-  <NavBar />
+  <NavBanner />
 
   <main>
     <RouterView />
