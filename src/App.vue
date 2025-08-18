@@ -4,7 +4,6 @@ import NavBanner from "./components/NavBanner.vue";
 </script>
 
 <template>
-
   <NavBanner />
 
   <main>

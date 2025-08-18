@@ -25,9 +25,9 @@
     background-position: center;
     border-radius: 3px;
     box-shadow: 0 4px 16px rgba(65, 56, 50, 0.3);
-    position:fixed;
+    position: fixed;
     top: 0%;
-    width:100%;
+    width: 100%;
   }
 
   .nav-bar a.router-link-exact-active {
@@ -51,9 +51,9 @@
     background-position: center;
     border-radius: 3px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
-    position:fixed;
+    position: fixed;
     top: 0%;
-    width:100%;
+    width: 100%;
   }
 
   .nav-bar a.router-link-exact-active {
