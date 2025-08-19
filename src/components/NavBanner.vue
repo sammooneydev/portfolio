@@ -4,9 +4,11 @@
       <span class="title">SAM'S STUFF</span>
     </div>
     <div class="nav-right">
-      <RouterLink to="/">HOME</RouterLink>
-      <RouterLink to="/projects">PROJECTS</RouterLink>
-      <RouterLink to="/contact">CONTACT</RouterLink>
+      <RouterLink to="#home">HOME</RouterLink>
+      <RouterLink to="#about">ABOUT ME</RouterLink>
+      <RouterLink to="#tech-stack">TECH STACK</RouterLink>
+      <RouterLink to="#projects">PROJECTS</RouterLink>
+      <RouterLink to="#contact">CONTACT</RouterLink>
     </div>
   </nav>
 </template>
@@ -29,13 +31,6 @@
     top: 0%;
     width: 100%;
   }
-
-  .nav-bar a.router-link-exact-active {
-    text-decoration-thickness: 4px;
-    text-underline-offset: 3px;
-    text-decoration: underline;
-    text-decoration-color: #fea712;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -54,13 +49,6 @@
     position: fixed;
     top: 0%;
     width: 100%;
-  }
-
-  .nav-bar a.router-link-exact-active {
-    text-decoration-thickness: 4px;
-    text-underline-offset: 3px;
-    text-decoration: underline;
-    text-decoration-color: #e76219;
   }
 }
 
