@@ -1,21 +1,28 @@
-<script setup></script>
+<script setup>
+import ProfileSection from "./components/ProfileSection.vue";
+</script>
 
 <template>
-  <h1>wahoo</h1>
-  <p>
-    this is a portfolio website template built with vue3 and vite
-  </p>
+  <ProfileSection />
 </template>
 
 <style>
-
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap");
 
 :root {
-  --bg: #0A0F17;
-  --fg: #E6ECF3;
-  --font-heading: 'Space Mono', monospace;
-  --font-body: 'JetBrains Mono', monospace;
+  --bg: #0a0f17;
+  --fg: #e6ecf3;
+  --font-heading: "Space Mono", monospace;
+  --font-body: "JetBrains Mono", monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }
 
 body {
@@ -23,5 +30,4 @@ body {
   color: var(--fg);
   font-family: var(--font-body);
 }
-
 </style>
