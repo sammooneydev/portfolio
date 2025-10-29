@@ -30,7 +30,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   width: 100%;
 }
 

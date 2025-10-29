@@ -22,7 +22,7 @@ import projects from "../data/projects.js";
 .projects-background {
   display: flex;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   width: 100%;
 }
 

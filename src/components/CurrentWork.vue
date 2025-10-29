@@ -29,7 +29,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
   width: 100%;
   margin-top: 0;
 }
