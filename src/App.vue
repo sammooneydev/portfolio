@@ -1,9 +1,11 @@
 <script setup>
 import ProfileSection from "./components/ProfileSection.vue";
+import ProjectList from "./components/ProjectList.vue";
 </script>
 
 <template>
   <ProfileSection />
+  <ProjectList />
 </template>
 
 <style>
