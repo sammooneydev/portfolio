@@ -5,9 +5,11 @@ import ProjectList from "./components/ProjectList.vue";
 </script>
 
 <template>
-  <ProjectList />
-  <ProfileSection />
-  <CurrentWork />
+  <main class="app-container">
+    <ProjectList />
+    <ProfileSection />
+    <CurrentWork />
+  </main>
 </template>
 
 <style>
@@ -33,5 +35,15 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-body);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  max-width: 100%vh; 
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 </style>
