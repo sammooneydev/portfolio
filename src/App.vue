@@ -1,5 +1,4 @@
 <script setup>
-import CurrentWork from "./components/CurrentWork.vue";
 import ProfileSection from "./components/ProfileSection.vue";
 import ProjectList from "./components/ProjectList.vue";
 </script>
@@ -8,7 +7,6 @@ import ProjectList from "./components/ProjectList.vue";
   <main class="app-container">
     <ProfileSection />
     <ProjectList />
-    <CurrentWork />
   </main>
 </template>
 

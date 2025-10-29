@@ -7,6 +7,11 @@
         software with a bit of personality. However I'm not opposed to building
         the bland stuff either ;)
       </p>
+      <h4># current work</h4>
+      <p>
+        I'm currently working on my honours project, which aims to be a search
+        engine for technical resources.
+      </p>
     </div>
   </section>
 </template>
