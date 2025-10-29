@@ -32,16 +32,11 @@ import projects from "../data/projects.js";
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding-bottom: 1rem;
-  max-width: 70vw;
+  max-width: 100vw;
 }
 
 .projects-container::-webkit-scrollbar {
   height: 0.5rem;
-}
-
-.projects-container::-webkit-scrollbar-thumb {
-  background-color: #1b2332;
-  border-radius: 1rem;
 }
 
 .projects-container > * {
