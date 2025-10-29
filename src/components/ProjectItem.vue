@@ -25,7 +25,6 @@ defineProps({
 </template>
 
 <style scoped>
-
 .project-item-background {
   display: flex;
   justify-content: center;
@@ -83,5 +82,4 @@ a img {
 a img:hover {
   opacity: 0.3;
 }
-
 </style>

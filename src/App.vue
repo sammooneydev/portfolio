@@ -1,11 +1,13 @@
 <script setup>
+import CurrentWork from "./components/CurrentWork.vue";
 import ProfileSection from "./components/ProfileSection.vue";
 import ProjectList from "./components/ProjectList.vue";
 </script>
 
 <template>
-  <ProfileSection />
   <ProjectList />
+  <ProfileSection />
+  <CurrentWork />
 </template>
 
 <style>
