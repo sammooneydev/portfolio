@@ -7,7 +7,7 @@ export default [
   },
   {
     title: "Portfolio Site",
-    description: "A simple portfolio site built with Vue.js, focused on showcasing personal projects.",
+    description: "This very site. Built with Vue.js, focused on showcasing personal projects.",
     repo_url: "https://github.com/sammooneydev/portfolio",
     languages: ["Vue.js"],
   },
