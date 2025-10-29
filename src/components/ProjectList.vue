@@ -30,6 +30,8 @@ import projects from "../data/projects.js";
   display: flex;
   gap: 1.5rem;
   overflow-x: auto;
+  overflow-y: visible;
+  padding-top: 0.75rem;
   scroll-snap-type: x mandatory;
   padding-bottom: 1rem;
   max-width: 100vw;

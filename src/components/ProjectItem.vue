@@ -44,6 +44,13 @@ defineProps({
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+
+
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
 }
 
 h4 {
@@ -60,7 +67,7 @@ h4 {
 
 .project-languages span {
   background: #111927;
-  color: #aab3c0;
+  color: #f9a825;
   font-size: 0.75rem;
   padding: 0.3rem 0.6rem;
   border-radius: 0.25rem;
