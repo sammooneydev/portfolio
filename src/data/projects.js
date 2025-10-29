@@ -13,11 +13,4 @@ export default [
     repo_url: "https://github.com/sammooneydev/portfolio",
     languages: ["Vue.js"],
   },
-  {
-    title: "Facial Features ML Model",
-    description:
-      "A simple machine learning model created as part of my university's machine learning module.",
-    repo_url: "dummy link until i convert notebook to python project",
-    languages: ["Python"],
-  },
 ];

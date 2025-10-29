@@ -46,9 +46,9 @@ body {
 .app-container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   justify-content: flex-start;
-  max-width: 100%vh; 
+  max-width: 100%vh;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
