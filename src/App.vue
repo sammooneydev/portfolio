@@ -6,8 +6,8 @@ import ProjectList from "./components/ProjectList.vue";
 
 <template>
   <main class="app-container">
-    <ProjectList />
     <ProfileSection />
+    <ProjectList />
     <CurrentWork />
   </main>
 </template>
