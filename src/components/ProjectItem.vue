@@ -44,8 +44,6 @@ defineProps({
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-
-
 }
 
 .project-item:hover {
