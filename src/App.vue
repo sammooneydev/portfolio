@@ -1,6 +1,7 @@
 <script setup>
 import ProfileSection from "./components/ProfileSection.vue";
 import ProjectList from "./components/ProjectList.vue";
+import FooterSection from "./components/FooterSection.vue";
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import ProjectList from "./components/ProjectList.vue";
     </pre>
     <ProfileSection />
     <ProjectList />
+    <FooterSection />
   </main>
 </template>
 
