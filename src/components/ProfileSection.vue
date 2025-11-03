@@ -77,8 +77,9 @@ p {
 
 .links-section {
   margin-top: 1.5rem;
+  justify-content: center;
   text-align: center;
-  width: 100vh;
+  width: 100%;
 }
 
 .icon {
