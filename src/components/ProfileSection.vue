@@ -12,22 +12,24 @@
         I'm currently working on my honours project, which aims to be a search
         engine for technical resources.
       </p>
-      <h4># links</h4>
-      <div class="socials">
-        <a href="https://github.com/sammooneydev">
-          <img
-            src="../assets/github-mark-white.svg"
-            alt="Github icon"
-            class="icon"
-          />
-        </a>
-        <a href="https://www.linkedin.com/in/sam-mooney-b8254632b">
-          <img
-            src="../assets/linkedin-app-white-icon.svg"
-            alt="Linkedin icon"
-            class="icon"
-          />
-        </a>
+      <div class="links-section">
+        <p>--- links ---</p>
+        <div class="socials">
+          <a href="https://github.com/sammooneydev">
+            <img
+              src="../assets/github-mark-white.svg"
+              alt="Github icon"
+              class="icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/sam-mooney-b8254632b">
+            <img
+              src="../assets/linkedin-app-white-icon.svg"
+              alt="Linkedin icon"
+              class="icon"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -73,9 +75,20 @@ p {
   border-color: #111927;
 }
 
+.links-section {
+  margin-top: 1.5rem;
+  text-align: center;
+  width: 100vh;
+}
+
 .icon {
   width: 30px;
   height: 30px;
+  transition: opacity 0.2s ease;
+}
+
+.icon:hover {
+  opacity: 0.3;
 }
 
 .socials {
