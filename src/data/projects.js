@@ -13,4 +13,10 @@ export default [
     repo_url: "https://github.com/sammooneydev/portfolio",
     languages: ["Vue.js"],
   },
+  {
+    title: "Rpi Catcam",
+    description:"IoT cat detector using Raspberry Pi and cloud vision to display sightings and control LEDs.",
+    repo_url: "https://github.com/sammooneydev/rpi-catcam",
+    languages: ["Python", "C"],
+  }
 ];
