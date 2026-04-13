@@ -55,11 +55,27 @@ body {
   padding: 2rem 1rem;
 }
 
+@media (max-width: 768px) {
+  .app-container {
+    padding: 1.5rem 0.75;
+  }
+}
+
 .ascii-banner {
   font-family: monospace;
   white-space: pre;
   text-align: center;
   color: var(--fg);
   line-height: 1.2;
+  overflow-x: auto;
+  max-width: 100%;
+  font-size: 0.6rem;
 }
+
+@media (max-width: 768px) {
+  .ascii-banner {
+    font-size: 0.4rem;
+  }
+}
+
 </style>

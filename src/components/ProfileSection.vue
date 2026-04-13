@@ -69,11 +69,27 @@ p {
   align-items: flex-start;
   text-align: left;
   max-width: 600px;
+  width: 100%;
   border-style: solid;
   border-width: 0.1rem;
   border-radius: 0.3rem;
   border-color: #111927;
 }
+
+@media (max-width: 600px) {
+  .profile-section {
+    padding: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+}
+
 
 .links-section {
   margin-top: 1.5rem;

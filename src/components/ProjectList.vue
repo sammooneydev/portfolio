@@ -35,6 +35,15 @@ import projects from "../data/projects.js";
   scroll-snap-type: x mandatory;
   padding-bottom: 1rem;
   max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column;
+    overflow-x: visible;
+    overflow-y: visible;
+  }
 }
 
 .projects-container::-webkit-scrollbar {

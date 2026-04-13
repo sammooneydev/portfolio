@@ -46,6 +46,13 @@ defineProps({
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .project-item {
+    min-width: 90%;
+    max-width: 90%;
+  }
+}
+
 .project-item:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);

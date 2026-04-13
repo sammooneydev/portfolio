@@ -36,6 +36,8 @@ function copyEmail() {
   display: flex;
   flex-direction: column;
   width: 100%;
+  text-align: center;
+  padding: 1rem;
 }
 
 p {
