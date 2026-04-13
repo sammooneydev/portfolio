@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 768px) {
   .ascii-banner {
-    font-size: 0.3rem;
+    font-size: 0.25rem;
   }
 }
 
