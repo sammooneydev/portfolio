@@ -40,7 +40,7 @@ h4 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   margin-top: 0;
-  opacity: 0.7;
+  opacity: 0.85;
   color: #f9a825;
 }
 

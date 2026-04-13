@@ -65,7 +65,7 @@ h3 {
 
 h4 {
   margin: 0 0 1rem 0;
-  opacity: 0.7;
+  opacity: 0.85;
   color: #f9a825;
 }
 
