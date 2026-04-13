@@ -46,7 +46,7 @@ import projects from "../data/projects.js";
   }
 }
 
-.projects-container::-webkit-scrollbar {
+.project-container::-webkit-scrollbar {
   height: 0.5rem;
 }
 

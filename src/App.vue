@@ -43,6 +43,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-body);
+  overflow-x: hidden;
 }
 
 .app-container {
