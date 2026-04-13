@@ -60,7 +60,6 @@ defineProps({
 
 h4 {
   font-size: 1.1rem;
-  opacity: 0.5;
 }
 
 .project-languages {
@@ -80,7 +79,6 @@ h4 {
 
 p {
   font-size: 0.9rem;
-  color: #ccc;
   line-height: 1.4;
   margin-bottom: 1rem;
 }
