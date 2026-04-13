@@ -1,5 +1,6 @@
 <script setup>
 import ProfileSection from "./components/ProfileSection.vue";
+import FeaturedItem from "./components/FeaturedItem.vue";
 import ProjectList from "./components/ProjectList.vue";
 import FooterSection from "./components/FooterSection.vue";
 </script>
@@ -15,6 +16,13 @@ import FooterSection from "./components/FooterSection.vue";
 ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═════╝ ╚══════╝  ╚═══╝  
     </pre>
     <ProfileSection />
+
+    <FeaturedItem
+      title="Honours Project"
+      subtitle="An Internet Search Engine for Technical Resources"
+      description="A domain-specific search engine designed to crawl, index and search high-quality technical content on the web"
+      details="This project explores how a search engine can be built specifically focusing on trusted technical sources. The system crawls official documentation websites, extracts relevant content, and indexes it to support keyword-based search. By restricting sources to well known documentation sites and avoiding advertising or ranking based on commercial factors, the project demonstrates how our search tools can be designed to prioritise reliability and relevance for developers and technical users."
+      />
     <ProjectList />
     <FooterSection />
   </main>

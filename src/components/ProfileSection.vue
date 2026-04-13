@@ -76,7 +76,7 @@ p {
   border-color: #111927;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .profile-section {
     padding: 1.5rem;
   }
