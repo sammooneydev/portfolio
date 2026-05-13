@@ -15,8 +15,16 @@ export default [
   },
   {
     title: "Rpi Catcam",
-    description:"IoT cat detector using Raspberry Pi and cloud vision to display sightings and control LEDs.",
+    description:
+      "IoT cat detector using Raspberry Pi and cloud vision to display sightings and control LEDs.",
     repo_url: "https://github.com/sammooneydev/rpi-catcam",
     languages: ["Python", "C"],
-  }
+  },
+  {
+    title: "TMDB Dashboard",
+    description:
+      "A dashboard for visualising movie data from the TMDB API. Built with Plotly Dash.",
+    repo_url: "https://github.com/sammooneydev/movie-visualisation",
+    languages: ["Python"],
+  },
 ];

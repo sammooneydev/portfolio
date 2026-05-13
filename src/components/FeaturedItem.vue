@@ -25,11 +25,11 @@ function toggleOpen() {
       <p class="description">{{ description }}</p>
 
       <button @click="toggleOpen" class="toggle-btn">
-        {{ isOpen ? "hide details" : "view details" }}
+        {{ isOpen ? "hide overview" : "technical overview" }}
       </button>
 
       <div v-if="isOpen" class="details">
-        <p>{{ details }}</p>
+        <div class="details-content" v-html="details"></div>
 
         <p class="source-code-msg">source code is available upon request</p>
 
@@ -93,6 +93,27 @@ h4 {
 .details {
   margin-top: 1rem;
   font-size: 0.9rem;
+}
+
+.details-content {
+  line-height: 1.7;
+}
+
+.details-content p {
+  margin-bottom: 1rem;
+}
+
+.details-content ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.details-content li {
+  margin-bottom: 0.5rem;
+}
+
+.details-content strong {
+  color: #f9a825;
 }
 
 .source-code-msg {
