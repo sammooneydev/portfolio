@@ -99,21 +99,41 @@ h4 {
   line-height: 1.7;
 }
 
-.details-content p {
+.details-content :deep(p) {
   margin-bottom: 1rem;
 }
 
-.details-content ul {
+.details-content :deep(ul) {
   padding-left: 1.2rem;
   margin-bottom: 1rem;
 }
 
-.details-content li {
+.details-content :deep(li) {
   margin-bottom: 0.5rem;
 }
 
-.details-content strong {
-  color: #f9a825;
+.details-content :deep(.video-wrapper) {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-bottom: 1.5rem;
+}
+
+.details-content :deep(.video-wrapper iframe) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.details-content :deep(.project-media) {
+  width: 100%;
+  border-radius: 0.3rem;
+  margin: 1rem 0 1.5rem 0;
+  border: 1px solid #111927;
+  display: block;
 }
 
 .source-code-msg {

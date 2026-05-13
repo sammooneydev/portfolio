@@ -22,6 +22,16 @@ import FooterSection from "./components/FooterSection.vue";
       subtitle="An Internet Search Engine for Technical Resources"
       description="A domain-specific search engine designed to crawl, index and search high-quality technical content on the web"
       details="
+
+              <div class='video-wrapper'>
+              <iframe
+                src='https://www.youtube.com/embed/KMjaDF72Me4'
+                title='Honours Project Video Demo'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                allowfullscreen>
+              </iframe>
+            </div>
+
               <p>
               This project is a domain-specific search engine designed for retrieving high-quality technical resources from trusted sources. The system was built to investigate whether restricting search results to curated technical documentation and educational content could improve relevance and reliability when compared to general-purpose search engines.
               </p>
@@ -38,9 +48,13 @@ import FooterSection from "./components/FooterSection.vue";
                 <li>Incremental crawling for efficient content updates</li>
               </ul>
 
+              <img src='/portfolio/media/crawler-demo.gif' class='project-media' alt='Web crawler demonstration'>
+
               <p>
               An inverted index was developed to support efficient search queries, with ranking based on term frequency scoring. The crawler was designed to selectively update content only when changes were detected, reducing unnecessary processing during large crawls.
               </p>
+
+              <img src='/portfolio/media/query-example.png' class='project-media' alt='Search query example'>
 
               <p>
               Performance testing showed predictable linear scaling across crawl time, indexing time, and storage requirements as dataset size increased. Functional testing also demonstrated reliable retrieval of relevant technical results across a range of standard and edge-case queries.
