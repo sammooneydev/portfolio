@@ -59,6 +59,8 @@ import FooterSection from "./components/FooterSection.vue";
               <p>
               Performance testing showed predictable linear scaling across crawl time, indexing time, and storage requirements as dataset size increased. Functional testing also demonstrated reliable retrieval of relevant technical results across a range of standard and edge-case queries.
               </p>
+              
+              <img src='/portfolio/media/crawl_time.png' class='project-media' alt='Plot showing linear scaling of crawl time as well as resulting effiency loss/gain from incremental crawling system'>
 
               <p>
               The project demonstrates how focused search systems can provide useful and trustworthy technical search experiences without relying on advertising-driven ranking systems or large-scale infrastructure.
