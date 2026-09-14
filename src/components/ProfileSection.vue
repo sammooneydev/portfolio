@@ -3,14 +3,15 @@
     <div class="profile-section">
       <h4>sam-mooney-profile.md</h4>
       <p>
-        Current computing student from Scotland with an interest in building
+        First-Class BSc(Hons) Computing grad from Scotland with an interest in building
         software with a bit of personality. However I'm not opposed to building
         the bland stuff either ;)
+
+        I'm now working as an apprentice software developer at the Scottish Social Services Council!
       </p>
       <h4># current work</h4>
       <p>
-        I'm currently working on my honours project, which aims to be a search
-        engine for technical resources.
+        I'm currently focused on my aforementioned apprenticeship, and continuing to work on my development skills.
       </p>
       <div class="links-section">
         <p>--- links ---</p>
